@@ -2,7 +2,7 @@
 window.onload = function() {
   var modal = document.createElement('div');
   modal.classList.add('modal');
-  modal.innerHTML = '<p>温馨提示:本站博客内容不代表作者本人最终观点,作者不对任何私自引用本站内容的文章负责!</p>';
+  modal.innerHTML = '<p>温馨提示:本站博客内容不代表作者本人最终观点,作者不对任何私自引用本站内容的人员负责!</p>';
   document.body.appendChild(modal);
   modal.style.display = 'block';
   setTimeout(function() {
