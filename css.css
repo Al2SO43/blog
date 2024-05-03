@@ -62,12 +62,16 @@ body {
     
 .links {
       width: 100%; /* 将链接容器的宽度设置为100% */
-    display: flex; /* 将链接的容器设置为Flex布局 */
-    flex-direction: column; /* 垂直排列链接 */
-    align-items: flex-start; /* 将链接左对齐 */
-    margin-top: 10px;
-    max-height: 500px; /* 设置最大高度 */
-    overflow: auto; /* 添加滚动条 */
+      display: flex; /* 将链接的容器设置为Flex布局 */
+      flex-direction: column; /* 垂直排列链接 */
+      align-items: flex-start; /* 将链接左对齐 */
+      margin-top: 10px;
+      max-height: 500px; /* 设置最大高度 */
+      overflow-y: auto; /* 添加垂直方向的滚动条，水平方向的滚动条将被隐藏 */
+      word-wrap: break-word; /* 当需要时允许单词内换行 */
+      display: inline-block; /* 使得超长文本也能被截断 */
+      max-width: 100%; /* 设置最大宽度以适应容器 */
+      white-space: normal;
 }
 
 
@@ -77,6 +81,11 @@ body {
       margin: 10px;
       font-size: 18px;
       display: block; /* 每个链接占据一行 */
+      word-wrap: break-word; /* 当需要时允许单词内换行 */
+      display: inline-block; /* 使得超长文本也能被截断 */
+      max-width: 98%; /* 设置最大宽度以适应容器 */
+      overflow-y: auto;
+      white-space: normal;
 }
 
 .modal {
