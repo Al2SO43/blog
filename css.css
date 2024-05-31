@@ -1,97 +1,97 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(to bottom, #000000, #077a81);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-}
-  
-.content {
-    position: relative;
-    width: 90%;
-    height: 90%;
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    background: linear-gradient(135deg, #c4dd9e 0%, #b4d9b6 100%); 
-}
-
-.topBar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 30px;
-    background-color: #66CCCC;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, #020a3bfd, #057426ef);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
   }
-
-.topBarText {
-    color: #000000;
-}
-
-.bottomBar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 30px;
-    background-color: #afd01a; 
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bottomBarText {
-    font-size: 15px; 
-}
-.bottomBarText a {
-    font-size: 15px; 
-}
-  
-.links {
-    width: 100%;
-    max-height: 95%;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-x: hidden;
-}
-
-.link {
-    text-decoration: none;
-    color: #000000;
-    margin: 10px;
-    font-size: 18px;
-    max-inline-size: 97%; 
-    margin-right: 10px;
-}
-
-
-.modal {
-    display: none;
-    position: fixed;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(1, 6, 7, 0.566);
+    
+  .content {
+      position: relative;
+      width: 90%;
+      height: 90%;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      background: linear-gradient(135deg, #c4dd9e 0%, #b4d9b6 100%); 
   }
+  
+  .topBar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 30px;
+      background-color: #66CCCC;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  .topBarText {
+      color: #000000;
+  }
+  
+  .bottomBar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 30px;
+      background-color: #afd01a; 
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .bottomBarText {
+      font-size: 15px; 
+  }
+  .bottomBarText a {
+      font-size: 15px; 
+  }
+    
+  .links {
+      width: 100%;
+      max-height: 95%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      word-wrap: break-word;
+      white-space: normal;
+      overflow-x: hidden;
+  }
+  
+  .link {
+      text-decoration: none;
+      color: #000000;
+      margin: 10px;
+      font-size: 18px;
+      max-inline-size: 97%; 
+      margin-right: 10px;
+  }
+  
+  
+  .modal {
+      display: none;
+      position: fixed;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(1, 6, 7, 0.566);
+    }
