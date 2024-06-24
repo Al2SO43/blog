@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: linear-gradient(to bottom, #000000, #077a81);
+    background: linear-gradient(to bottom,  #020a3bfd, #057426ef);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +56,10 @@ body {
     align-items: center;
 }
 .bottomBarText {
-    font-size: 1rem; 
+    font-size: 0.93rem; 
 }
 .bottomBarText a {
-    font-size: 1rem; 
+    font-size: 0.93rem; 
 }
   
 .links {
